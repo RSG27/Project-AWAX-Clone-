@@ -13,7 +13,7 @@ Layout inspired by Alexander Bukin's Project (Project Awax), built in the B7web 
 
 ### Links
 
-- Access here: [here](https://endearing-mandazi-39ba82.netlify.app/)
+- Access here: [here](https://project-awax-86bbc4.netlify.app/)
 
 ## My process
 

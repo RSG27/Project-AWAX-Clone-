@@ -59,6 +59,7 @@ header {
   display:flex;
   align-items:center;
   border-bottom:5px solid #000;
+  transition: 250ms;
 }
 .menu li a:hover,
 .menu .active a {
@@ -74,16 +75,18 @@ header {
   font-size:12px;
   font-weight:600;
   text-decoration: none;
-  padding:10px 30px;
+  padding:15px 30px;
   margin-top:30px;
   border-radius:20px;
   cursor: pointer;
+  transition: 350ms;
 }
 .button--dark {
   background-color:#000;
 }
 .button--dark:hover {
   background-color:#B28756;
+  transition: 350ms;
 }
 
 .banner {
@@ -95,8 +98,11 @@ header {
   overflow:hidden;
 }
 .banner .sliders {
+  display: flex;
   width:1000vw;
   height:100%;
+  transition: 350ms;
+
 }
 .banner .slide {
   width:100vw;
@@ -112,12 +118,12 @@ header {
   align-items:center;
   color:#FFF;
 }
-.banner h1 {
+.banner h1, span {
   text-transform: uppercase;
   font-weight: bold;
   font-size:50px;
 }
-.banner h1 span {
+.banner h1 {
   color:#B28756;
 }
 .banner h2 {
@@ -325,8 +331,10 @@ CSS DE ÁREAS ESPECÍFICAS
   margin:auto;
 }
 .section-team .sliders {
+  display: flex;
   width:1000vw;
   height:100%;
+  transition: 350ms;
 }
 .section-team .slide {
   width:280px;
@@ -367,17 +375,20 @@ CSS DE ÁREAS ESPECÍFICAS
 .section-team--avatar {
   width:150px;
   height:auto;
+  transition: 250ms;
 }
 .section-team--name {
   text-transform: uppercase;
   font-weight: 600;
   font-size:17px;
   margin-top:30px;
+  transition: 250ms;
 }
 .section-team--role {
   font-size:14px;
   color:#999;
   margin-top:5px;
+  transition: 250ms;
 }
 .section-team--social {
   display:flex;
@@ -392,6 +403,7 @@ CSS DE ÁREAS ESPECÍFICAS
   background-color:#CCC;
   border-radius:13px;
   margin-right:10px;
+  transition: 250ms;
 }
 .section-team--social a:hover {
   background-color:#B28756;
@@ -404,8 +416,10 @@ CSS DE ÁREAS ESPECÍFICAS
   overflow:hidden;
 }
 .section-testimonials .sliders {
+  display: flex;
   width:1000vw;
   height:100%;
+  transition: 350ms;
 }
 .section-testimonials .slide {
   width:100vw;
@@ -511,6 +525,8 @@ CSS DE ÁREAS ESPECÍFICAS
   font-size:12px;
 }
 
+
+
 .premium {
   background-color:#FFF !important;
   border-top:1px solid #CCC;
@@ -525,8 +541,10 @@ CSS DE ÁREAS ESPECÍFICAS
   margin-top:30px;
 }
 .section-premium .sliders {
+  display: flex;
   width:1000vw;
   height:100%;
+  transition: 350ms;
 }
 .section-premium .slide {
   width:100vw;
@@ -553,6 +571,7 @@ CSS DE ÁREAS ESPECÍFICAS
 }
 .section-premium--right {
   flex:1;
+  margin-left: 45px;
 }
 .section-premium--item {
   display:flex;
@@ -574,6 +593,7 @@ CSS DE ÁREAS ESPECÍFICAS
   font-weight:600;
 }
 
+
 .section-premium .sliders-pointers {
   width:100vw;
   height:20px;
@@ -594,6 +614,7 @@ CSS DE ÁREAS ESPECÍFICAS
 .section-premium .pointer.active {
   background-color:#B28756;
 }
+
 
 
 .section-facts {
@@ -806,17 +827,31 @@ footer {
   display: flex;
   flex-wrap: wrap;
 }
-
-.copyright {
-  color: #CCC;
-  display: flex;
-  justify-content: start;
-  margin-left: 100px;
+.dev {
+  text-align: center;
+  color: #B28756;
+  font-weight: 600;
 }
+.dev a {
+  text-decoration: none;
+  color: #B28756;
+}
+.copyright {
+  text-align: center;
+  color: #B28756;
+  margin-left: 60px;
+  font-weight: 600;
+}
+.copyright a {
+  text-decoration: none;
+  color: #B28756;
+}
+
+
 
 @media (min-width:1024px) {
   .logoimg {
-    font-size: 20px;
+    font-size: 30px;
     margin-left: 30px;
   }
 }
@@ -925,8 +960,9 @@ footer {
       margin-bottom:0;
   }
   .copyright {
-    color: #CCC;
-    margin-left: 90px;
+    text-align: center;
+    color: #B28756;
+    margin-left: 8px;
   }
   
 }
@@ -975,6 +1011,9 @@ footer {
   }
   .banner h2 {
       font-size:17px;
+  }
+  .banner span {
+    font-size: 30px;
   }
 
 
@@ -1119,8 +1158,8 @@ footer {
   }
 
   .copyright {
-    color: #CCC;
-    margin-left: 90px;
+    color: #B28756;
+    margin-left: 8px;
   }
 }
 

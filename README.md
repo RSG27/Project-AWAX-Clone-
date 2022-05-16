@@ -23,6 +23,7 @@ Layout inspired by Alexander Bukin's Project (Project Awax), built in the B7web 
 - Flexbox
 - Semantic HTML5
 - Responsive Design
+- Javascript
 
 ## Author
 

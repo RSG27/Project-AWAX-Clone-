@@ -37,29 +37,32 @@
     <section class="banner">
         <div class="sliders">
             <div class="slide">
-                <div class="slidearea">
-                    <h1>Design is about<br/><span>Communication</span></h1>
+                <div class="slidearea" >
+                    <h1>Design is about</h1><br/>
+                    <span>Communication</span>
                     <h2>Call Us: +00 0 1234 5678</h2>
                     <a href="" class="button">Get in touch!</a>
                 </div>
-            </div><div class="slide">
+            </div><div class="slide" >
                 <div class="slidearea">
-                    <h1>Design is about<br/><span>Marketing</span></h1>
+                    <h1>Design is about</h1><br/>
+                    <span>Marketing</span>
                     <h2>Call Us: +00 0 1234 5678</h2>
                     <a href="" class="button">Get in touch!</a>
                 </div>
-            </div><div class="slide">
+            </div><div class="slide" >
                 <div class="slidearea">
-                    <h1>Design is about<br/><span>Sales</span></h1>
+                    <h1>Design is about</h1><br/>
+                    <span>Sales</span>
                     <h2>Call Us: +00 0 1234 5678</h2>
                     <a href="" class="button">Get in touch!</a>
                 </div>
             </div>
         </div>
         <div class="sliders-pointers">
-            <div class="pointer active"></div>
-            <div class="pointer"></div>
-            <div class="pointer"></div>
+            <div onclick="changeSlide('.banner', 0)" class="pointer active"></div>
+            <div onclick="changeSlide('.banner', 1)" class="pointer"></div>
+            <div onclick="changeSlide('.banner', 2)" class="pointer"></div>
         </div>
     </section>
 
@@ -246,7 +249,7 @@
             <div class="section-desc">Our Co-Workers</div>
             <div class="section-body">
                 <div class="section-team">
-                    <div class="sliders" style="margin-left:0;">
+                    <div class="sliders" >
                         <div class="slide">
                             <div class="slidearea">
                                 <img class="section-team--avatar" src="assets/media/complementos/mulher1.png" />
@@ -288,25 +291,95 @@
                             </div>
                         </div><div class="slide">
                             <div class="slidearea">
-                                <img class="section-team--avatar" src="media/mulher1.png" />
+                                <img class="section-team--avatar" src="assets/media/complementos/mulher1.png" />
                                 <div class="section-team--name">Jane Doe</div>
                                 <div class="section-team--role">Master mind</div>
                                 <div class="section-team--social">
-                                        <a href=""><img src="assets/images/facebook.png" /></a>
-                                        <a href=""><img src="assets/images/googleplus.png" /></a>
-                                        <a href=""><img src="assets/images/linkedin.png" /></a>
-                                        <a href=""><img src="assets/images/pinterest.png" /></a>
-                                        <a href=""><img src="assets/images/twitter.png" /></a>
+                                        <a href=""><img src="assets/images/icones/facebook.png" /></a>
+                                        <a href=""><img src="assets/images/icones/googleplus.png" /></a>
+                                        <a href=""><img src="assets/images/icones/linkedin.png" /></a>
+                                        <a href=""><img src="assets/images/icones/pinterest.png" /></a>
+                                        <a href=""><img src="assets/images/icones/twitter.png" /></a>
+                                </div>
+                            </div>
+                        </div><div class="slide">
+                            <div class="slidearea">
+                                <img class="section-team--avatar" src="assets/media/complementos/homem1.png" />
+                                <div class="section-team--name">Mike Chiller</div>
+                                <div class="section-team--role">Creative Head</div>
+                                <div class="section-team--social">
+                                        <a href=""><img src="assets/images/icones/facebook.png" /></a>
+                                        <a href=""><img src="assets/images/icones/googleplus.png" /></a>
+                                        <a href=""><img src="assets/images/icones/linkedin.png" /></a>
+                                        <a href=""><img src="assets/images/icones/pinterest.png" /></a>
+                                        <a href=""><img src="assets/images/icones/twitter.png" /></a>
+                                </div>
+                            </div>
+                        </div><div class="slide">
+                            <div class="slidearea">
+                                <img class="section-team--avatar" src="assets/media/complementos/mulher2.png" />
+                                <div class="section-team--name">Anna Jhons</div>
+                                <div class="section-team--role">Technical Lead</div>
+                                <div class="section-team--social">
+                                        <a href=""><img src="assets/images/icones/facebook.png" /></a>
+                                        <a href=""><img src="assets/images/icones/googleplus.png" /></a>
+                                        <a href=""><img src="assets/images/icones/linkedin.png" /></a>
+                                        <a href=""><img src="assets/images/icones/pinterest.png" /></a>
+                                        <a href=""><img src="assets/images/icones/twitter.png" /></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <div class="slidearea">
+                                <img class="section-team--avatar" src="assets/media/complementos/mulher1.png" />
+                                <div class="section-team--name">Jane Doe</div>
+                                <div class="section-team--role">Master mind</div>
+                                <div class="section-team--social">
+                                        <a href=""><img src="assets/images/icones/facebook.png" /></a>
+                                        <a href=""><img src="assets/images/icones/googleplus.png" /></a>
+                                        <a href=""><img src="assets/images/icones/linkedin.png" /></a>
+                                        <a href=""><img src="assets/images/icones/pinterest.png" /></a>
+                                        <a href=""><img src="assets/images/icones/twitter.png" /></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="slide">
+                            <div class="slidearea">
+                                <img class="section-team--avatar" src="assets/media/complementos/homem1.png" />
+                                <div class="section-team--name">Mike Chiller</div>
+                                <div class="section-team--role">Creative Head</div>
+                                <div class="section-team--social">
+                                    <a href=""><img src="assets/images/icones/facebook.png" /></a>
+                                    <a href=""><img src="assets/images/icones/googleplus.png" /></a>
+                                    <a href=""><img src="assets/images/icones/linkedin.png" /></a>
+                                    <a href=""><img src="assets/images/icones/pinterest.png" /></a>
+                                    <a href=""><img src="assets/images/icones/twitter.png" /></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slidearea">
+                                <img class="section-team--avatar" src="assets/media/complementos/mulher2.png" />
+                                <div class="section-team--name">Anna Jhons</div>
+                                <div class="section-team--role">Technical Lead</div>
+                                <div class="section-team--social">
+                                    <a href=""><img src="assets/images/icones/facebook.png" /></a>
+                                    <a href=""><img src="assets/images/icones/googleplus.png" /></a>
+                                    <a href=""><img src="assets/images/icones/linkedin.png" /></a>
+                                    <a href=""><img src="assets/images/icones/pinterest.png" /></a>
+                                    <a href=""><img src="assets/images/icones/twitter.png" /></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="sliders-pointers">
-                    <div class="pointer active"></div>
-                    <div class="pointer"></div>
-                    <div class="pointer"></div>
-                </div>
+            </div>
+            <div class="sliders-pointers">
+                <div onclick="changeSlide('.section-team-area', 0)" class="pointer active"></div>
+                <div onclick="changeSlide('.section-team-area', 1)" class="pointer"></div>
+                <div onclick="changeSlide('.section-team-area', 2)" class="pointer"></div>
             </div>
         </div>
     </section>
@@ -316,7 +389,7 @@
         <div class="section-desc">Client Reviews</div>
         <div class="section-body">
             <div class="section-testimonials">
-                <div class="sliders" style="margin-left:0;">
+                <div class="sliders">
                     <div class="slide">
                         <div class="slidearea">
                             <img class="section-testimonials--avatar" src="assets/media/complementos/homem2.png" />
@@ -344,9 +417,9 @@
                     </div>
                 </div>
                 <div class="sliders-pointers">
-                    <div class="pointer active"></div>
-                    <div class="pointer"></div>
-                    <div class="pointer"></div>
+                    <div onclick="changeSlide('.testimonials', 0)" class="pointer active"></div>
+                    <div onclick="changeSlide('.testimonials', 1)" class="pointer"></div>
+                    <div onclick="changeSlide('.testimonials', 2)" class="pointer"></div>
                 </div>
             </div>
         </div>
@@ -470,18 +543,74 @@
                         </div>
                     </div><div class="slide">
                         <div class="slidearea">
-                            ...
+                            <div class="section-premium--left">
+                                <img src="assets/media/complementos/livros.png" />
+                            </div>
+                            <div class="section-premium--right">
+                                    <div class="section-premium--item">
+                                        <img src="assets/images/icones/check.png" />
+                                        <div>
+                                            <h4>FOURTH FEATURE</h4>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus.<br/>
+                                            -- FEATURE ONE<br/>
+                                            -- FEATURE TWO<br/>
+                                            -- FEATURE THREE
+                                        </div>
+                                    </div>
+                                    <div class="section-premium--item">
+                                        <img src="assets/images/icones/check.png" />
+                                        <div>
+                                            <h4>FIFTH FEATURE</h4>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus.
+                                        </div>
+                                    </div>
+                                    <div class="section-premium--item">
+                                        <img src="assets/images/icones/check.png" />
+                                        <div>
+                                            <h4>SIXTH FEATURE</h4>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus.
+                                        </div>
+                                    </div>
+                            </div>
                         </div>
                     </div><div class="slide">
                         <div class="slidearea">
-                            ...
+                            <div class="section-premium--left">
+                                <img src="assets/media/complementos/livros.png" />
+                            </div>
+                            <div class="section-premium--right">
+                                    <div class="section-premium--item">
+                                        <img src="assets/images/icones/check.png" />
+                                        <div>
+                                            <h4>SEVENTH FEATURE</h4>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus.<br/>
+                                            -- FEATURE ONE<br/>
+                                            -- FEATURE TWO<br/>
+                                            -- FEATURE THREE
+                                        </div>
+                                    </div>
+                                    <div class="section-premium--item">
+                                        <img src="assets/images/icones/check.png" />
+                                        <div>
+                                            <h4>EIGHTH FEATURE</h4>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus.
+                                        </div>
+                                    </div>
+                                    <div class="section-premium--item">
+                                        <img src="assets/images/icones/check.png" />
+                                        <div>
+                                            <h4>NINTH FEATURE</h4>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus.
+                                        </div>
+                                    </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="sliders-pointers">
-                    <div class="pointer active"></div>
-                    <div class="pointer"></div>
-                    <div class="pointer"></div>
+                    <div onclick="changeSlide('.premium', 0)" class="pointer active"></div>
+                    <div onclick="changeSlide('.premium', 1)" class="pointer"></div>
+                    <div onclick="changeSlide('.premium', 2)" class="pointer"></div>
                 </div>
             </div>
         </div>
@@ -588,7 +717,7 @@
                         <div class="section-map--info-item-img">
                             <img src="assets/images/icones/localizacao.png" />
                         </div>
-                        121 Kink Streat, Melbourne Victoria 3000 Australia                    
+                        121 King Street, Melbourne Victoria 3000 Australia                    
                     </div>
                     <div class="section-map--info-item">
                         <div class="section-map--info-item-img">
@@ -634,9 +763,15 @@
             </form>
         </div>
     </div>
-    <div class="copyright">
-        AWAX @ 2022        
+    <br><br><br>
+    <div class="dev">
+        Desenvolvido por <a href="https://github.com/RSG27">Ruan Silva Gaspar</a>
     </div>
+    <br><br>
+    <div class="copyright">
+        AWAX @ 2022 - Todos os Direitos Reservados - <a href="https://www.behance.net/bagd/moodboards">Alexander Bukin</a>
+    </div>
+    
 </footer>
 
 <script src="assets/js/script.js"></script>

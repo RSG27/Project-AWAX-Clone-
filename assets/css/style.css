@@ -549,7 +549,7 @@ CSS DE ÁREAS ESPECÍFICAS
 }
 .section-premium--left img {
   width:300px;
-  margin-right:30px;
+  margin-right:-25px;
 }
 .section-premium--right {
   flex:1;
@@ -1120,7 +1120,7 @@ footer {
 
   .copyright {
     color: #CCC;
-    margin-left: 120px;
+    margin-left: 90px;
   }
 }
 

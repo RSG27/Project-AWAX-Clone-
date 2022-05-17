@@ -89,7 +89,7 @@ function changeSlide(area, slide) {
                 } else if (area == '.section-team-area') {
                     sliders.style = 'margin-left: -1785px';
                 } else {
-                    sliders.style = 'margin-left: -205vw';
+                    sliders.style = 'margin-left: -200vw';
                 };                
                 break;
     } 

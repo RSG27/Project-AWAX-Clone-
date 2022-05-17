@@ -69,7 +69,7 @@ function changeSlide(area, slide) {
                 } else if (area == '.section-team-area' && screenWidth <= 450) {
                     sliders.style = 'margin-left: -295px';
                 } else if (area == '.section-team-area') {
-                    sliders.style = 'margin-left: -885px';
+                    sliders.style = 'margin-left: -895px';
                 } else {
                     sliders.style = 'margin-left: -100vw';
                 };                
@@ -83,13 +83,13 @@ function changeSlide(area, slide) {
                     // multiplicado pela quantidade de cards que aparecem na tela, ex. 295 * 2 cards = 590. 
                     // E então somar esse valor ao total de margem que já possui.
                 if (area == '.section-team-area' && (screenWidth > 450 && screenWidth <= 800)) {                    
-                    sliders.style = 'margin-left: -1180px';
+                    sliders.style = 'margin-left: -1185px';
                 } else if (area == '.section-team-area' && screenWidth <= 450) {
-                    sliders.style = 'margin-left: -600px';
+                    sliders.style = 'margin-left: -605px';
                 } else if (area == '.section-team-area') {
-                    sliders.style = 'margin-left: -1780px';
+                    sliders.style = 'margin-left: -1785px';
                 } else {
-                    sliders.style = 'margin-left: -200vw';
+                    sliders.style = 'margin-left: -205vw';
                 };                
                 break;
     } 

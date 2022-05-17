@@ -29,3 +29,7 @@ Layout inspired by Alexander Bukin's Project (Project Awax), built in the B7web 
 
 - Ruan Silva Gaspar
 - Linkedin - [@ruangasparsilva](https://www.linkedin.com/in/ruan-silva-gaspar-a13a89226/)
+
+## Acknowledgments
+
+Here I leave my thanks to Jonathan Dias (https://github.com/kungsjds) and Douglas Suzuki (https://github.com/Nickie316) for helping me add Javscript to this project.

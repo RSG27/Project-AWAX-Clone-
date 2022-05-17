@@ -498,7 +498,7 @@ CSS DE ÁREAS ESPECÍFICAS
 }
 .section-price--item {
   flex:1;
-  background-color: #FFF;
+  background-color: #ccc;
   margin-right: 20px;
   padding:20px;
   text-align:center;
@@ -517,7 +517,7 @@ CSS DE ÁREAS ESPECÍFICAS
   margin-top:10px;
 }
 .section-price--item-period {
-  color:#999;
+  color:#333;
   text-transform: uppercase;
   margin-bottom:20px;
 }

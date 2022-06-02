@@ -874,7 +874,7 @@ footer {
       z-index: 99;
       background-color: rgba(0, 0, 0, 0.9);
       width: 70vw;
-      height: calc(100vh - 100px);
+      height: calc(220vh - 100px);
       top: 100px;
       right: 0;
   }
@@ -986,7 +986,7 @@ footer {
       z-index: 99;
       background-color: rgba(0, 0, 0, 0.9);
       width: 80vw;
-      height: calc(100vh - 100px);
+      height: calc(220vh - 100px);
       top: 100px;
       right: 0;
   }

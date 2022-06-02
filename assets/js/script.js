@@ -8,23 +8,6 @@ window.onload = function() {
     });
 };
 
-function scrollToggle() {
-    const element = document.querySelector('#scrollTopButton');
-    if (window.scrollY == 0) {
-        element.style.display = 'none';
-    } else {
-        element.style.display = 'flex';
-    }
-}
-
-window.addEventListener('scroll', scrollToggle);
-
-function backToTop() {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
-};
 
 function menuToggle() {
     let menu = {
@@ -65,7 +48,7 @@ function changeSlide(area, slide) {
 
         case 1: 
                 if (area == '.section-team-area' && (screenWidth > 450 && screenWidth <= 800)) {                    
-                    sliders.style = 'margin-left: -590px';
+                    sliders.style = 'margin-left: -600px';
                 } else if (area == '.section-team-area' && screenWidth <= 450) {
                     sliders.style = 'margin-left: -295px';
                 } else if (area == '.section-team-area') {
